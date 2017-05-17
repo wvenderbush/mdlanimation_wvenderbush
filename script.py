@@ -234,5 +234,7 @@ def run(filename):
       knoblist = second_pass(commands)
       #print knoblist
       third_pass(commands, symbols)
+
+    make_animation(basename)
  
     
